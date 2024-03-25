@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.message{
+    font-size: 10px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,198,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.message:hover{
+    transform: scale(1.3);
+}
